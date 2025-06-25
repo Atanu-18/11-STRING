@@ -11,7 +11,7 @@ public class task_3 {
 
         String email = sc.next();
         String userName = "";
-
+        
         for(int i = 0; i < email.length(); i++) {
             if (email.charAt(i) == '@') {
                 break;
